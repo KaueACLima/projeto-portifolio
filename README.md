@@ -1,7 +1,7 @@
-<h1 align="center"> Kauê Lima - Portifólio </h1>
+<h1 align="center"> Kauê Lima - Portfólio </h1>
 
 <p align="center">
-Olá a todos, sejam bem vindos ao meu portifólop. <br/>
+Olá a todos, sejam bem vindos ao meu portfólio. <br/>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
