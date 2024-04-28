@@ -15,7 +15,7 @@ Olá a todos, sejam bem vindos ao meu portfólio. <br/>
 
 <br>
 
-![projeto-portifolio](https://github.com/KaueACLima/projeto-nlw-quiz/assets/56000639/c7bdd05d-376e-4eea-994c-ab949e2c643c)
+![projeto-portifolio](https://github.com/KaueACLima/projeto-portifolio/assets/56000639/78fdee65-96ae-4a95-9124-47830cd1c0ce)
 
 ## 🚀 Tecnologias
 
