@@ -86,7 +86,7 @@ body {
   gap: 20px;
 }
 
-.home .rede-sociais li a {
+.home .rede-sociais a i {
   border: 1px solid #000;
   color: #000;
   border-radius: 50%;
@@ -98,7 +98,7 @@ body {
   transition: 0.3s;
 }
 
-.home .rede-sociais li a:hover {
+.home .rede-sociais a i:hover {
   background-color: #895BFD;
   color: #fff;
   transform: scale(1.1);
