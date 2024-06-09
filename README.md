@@ -27,9 +27,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-- [Acesse o projeto finalizado, online](https://github.com/KaueACLima/projeto-discover-dev-links)
+- [Acesse o projeto finalizado, online](https://kaueaclima.github.io/projeto-portifolio/)
 
-- [Acesse o portifólio finalizado](https://github.com/KaueACLima/projeto-discover-dev-links)
+- [Acesse o portifólio finalizado](https://github.com/KaueACLima/projeto-portifolio)
 
 ## :memo: Licença
 
