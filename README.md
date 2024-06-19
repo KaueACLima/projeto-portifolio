@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Acesse o projeto finalizado, online](https://kaueaclima.github.io/projeto-portifolio/)
 
-- [Acesse o portifólio finalizado](https://github.com/KaueACLima/projeto-portifolio)
+- [Acesse o portifólio finalizado](https://kaueaclima.github.io/projeto-portifolio/)
 
 ## :memo: Licença
 

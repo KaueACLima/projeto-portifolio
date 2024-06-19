@@ -1,4 +1,6 @@
 html {
+  font-size: 62.5%;
+
   color: var(--cor-fonte-padrao, #000);
 
   scroll-behavior: smooth;
@@ -19,6 +21,7 @@ body {
 }
 
 .cabecalho {
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,11 +53,11 @@ body {
 
 .cabecalho .menu li a {
   color: var(--cor-fonte-padrao, #000);
-  font-size: var(--medida-padrao, 1.2rem);
+  font-size: var(--medida-padrao, 1.6rem);
   text-transform: capitalize;
   font-weight: bold;
 
-  padding: 0.6rem 1.2rem;
+  padding: 0.6rem 1rem;
 
   transition: 0.3s ease-in-out;
 }
@@ -82,6 +85,7 @@ body {
   flex-direction: column;
   gap: 0.9rem;
 
+  font-size: var(--medida-padrao, 1.6rem);
   letter-spacing: 0.1rem;
 
   padding: 0 0.9rem;
@@ -91,16 +95,18 @@ body {
 
 .home .informacoes h1 {
   font-family: "Raleway", sans-serif;
-  font-size: 2.8rem;
+  font-size: 3.5rem;
 
   margin-bottom: var(--medida-padrao, 1.2rem);
 }
 
 .home .informacoes p {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
+  align-items: center;
 
-  margin-bottom: 0.6rem;
+  font-family: "Raleway", sans-serif;
+  font-size: var(--medida-padrao, 1.6rem);;
+
+  margin-bottom: 3rem;
 }
 
 .home .rede-sociais {
