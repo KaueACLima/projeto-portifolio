@@ -1,5 +1,5 @@
 :root {
-  --cor-fonte-padrao: #000;
-
-  --medida-padrao: 1.6rem;
+  --color-default: #000;
+  --font-size-default: 1.6rem;
+  --margin-default: 1.2rem;
 }
