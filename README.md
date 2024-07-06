@@ -15,7 +15,7 @@ Olá a todos, sejam bem vindos ao meu portfólio. <br/>
 
 <br>
 
-![projeto-portifolio](https://github.com/KaueACLima/projeto-portifolio/assets/56000639/78fdee65-96ae-4a95-9124-47830cd1c0ce)
+![projeto-portifolio](https://github.com/KaueACLima/projeto-huddle-landing-page-with-alternating-feature-blocks-master/assets/56000639/32ba4c4d-cb1e-464d-b868-63b0513f626d)
 
 ## 🚀 Tecnologias
 

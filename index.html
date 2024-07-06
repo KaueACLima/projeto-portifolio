@@ -1,207 +1,281 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <link rel="shortcut icon" href="./assets/img/business.png" type="image/x-icon">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/variables.css">
-  <link rel="stylesheet" href="./assets/css/responsivo.css">
-  <link rel="stylesheet" href="./assets/css/estilo.css">
-
   <title>Kauê Lima - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="./assets/css/font-awesome.css" />
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+
+  <!-- Global -->
+  <link rel="stylesheet" href="./assets/css/globais.css" />
+  <link rel="stylesheet" href="./assets/css/variaveis.css" />
+  <link rel="stylesheet" href="./assets/css/secoes/header.css" />
+  <link rel="stylesheet" href="./assets/css/secoes/home.css" />
+  <link rel="stylesheet" href="./assets/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="./assets/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="./assets/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="./assets/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 </head>
 
 <body>
-  <header class="cabecalho">
-    <a href="#">
-      <h1 class="logo">KL</h1>
-    </a>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">KL</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
 
-    <nav class="menu">
-      <ul>
-        <li>
-          <a href="#projetos">Meus projetos</a>
-        </li>
-      </ul>
-    </nav>
-
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+            <li><a href="./assets/arquivos/currículo_dev.pdf" class="botao" target="_blank">
+                Veja meu currículo
+              </a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
   <section class="home">
-    <div class="informacoes">
-      <h1>Olá sou Kauê Lima</h1>
-      <p>
-        Um desenvolvedor frontend apaixonado por tecnologia, mangás, filmes, séries e correr ao ar livre. 💜.
-      </p>
-      <p>
-        Busco constantemente aprimorar meus conhecimentos em projetos desafiadores. Compartilho meu trabalho na
-        comunidade de programação, valorizando feedbacks para crescer profissionalmente 😁.
-      </p>
-      <ul class="rede-sociais">
-        <li>
-          <a href="https://www.linkedin.com/in/kau%C3%AA-lima-234515182/" title="Ir para Linkedin" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://wa.me/5511993106261" title="Enviar mensagem no WhatsApp" target="_blank">
-            <i class="fab fa-whatsapp"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/KaueACLima" title="Ir para Github" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/kaue_acl/" title="Ir para Instagram" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="container-foto">
-      <div class="foto sombra-interna">
-        <img src="./assets/img/avatar-kaue-light.png" alt="Foto do portifólio do Kauê" />
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖,</p>
+          <h1>Sou o Kauê Lima</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/kau%C3%AA-lima-234515182/" class="outer-shadow" target="_blank"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5511993106261" class="outer-shadow" target="_blank"><i
+                class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/KaueACLima" class="outer-shadow" target="_blank"><i
+                class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/kaue_acl/" class="outer-shadow" target="_blank"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="./assets/img/foto-perfil-1.png" alt="foto do perfil do Kauê Lima" />
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <section class="projetos" id="projetos">
-    <h2 class="titulo">Meus projetos</h2>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="informacoes-sobre-mim">
+        <p>
+          <strong>Me chamo Kauê Lima e sou um desenvolvedor fullsteck em
+            formação!</strong>
+        </p>
 
-    <div class="container-projetos">
-      <div class="projeto ativo">
-        <a href="https://kaueaclima.github.io/projeto-gta/" target="_blank">
-          <img src="./assets/img/projeto-gta.png" alt="Projeto Landing page GTA" />
-          <h3>Projeto 1</h3>
+        <p>
 
-          <div class="informacoes-projeto">
-            <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
+          Com 4 anos de experiência como auxiliar de administração, destaco minha habilidade em criar e elaborar
+          planilhas intuitivas e eficientes. Durante os desafios da pandemia e a escassez de material didático,
+          interrompi temporariamente meus estudos na ETEC em Informática para Internet e Desenvolvimento de Sistemas.
+          Agora, busco uma transição para o desenvolvimento FULLSTACK.
+
+          Graças ao meu conhecimento e aos esforços dedicados ao aprimoramento das minhas habilidades, venho atuando
+          como freelancer nos últimos 8 meses. Meus principais domínios incluem HTML, CSS, JavaScript e React.
+
+        </p>
+
       </div>
 
-      <div class="projeto ativo">
-        <a href="https://kaueaclima.github.io/projeto-discover-dev-links/" target="_blank">
-          <img src="./assets/img/dev-links.png" alt="Projeto Dev Links" />
-          <h3>Projeto 2</h3>
-          <div class="informacoes-projeto">
-            <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projeto ativo">
-        <a href="https://kaueaclima.github.io/projeto-fylo-landing-page-with-two-column-layout-master/" target="_blank">
-          <img src="./assets/img/agency-xyp.png" alt="Projeto Landing Page" />
-          <h3>Projeto 3</h3>
-          <div class="informacoes-projeto">
-            <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projeto">
-        <a href="https://kaueaclima.github.io/projeto-fylo-landing-page-with-two-column-layout-master/" target="_blank">
-          <img src="./assets/img/fylo-landing.jpg" alt="Projeto Landing Page" />
-          <h3>Projeto 3</h3>
-          <div class="informacoes-projeto">
-            <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projeto ativo">
-        <a href="https://kaueaclima.github.io/projeto-incricao-evento/" target="_blank">
-          <img src="./assets/img/projeto-incricao-evento.png" alt="Projeto incrição de um evento" />
-          <h3>Projeto 4</h3>
-          <div class="informacoes-projeto">
-            <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
-
-
-      <div class="projeto">
-        <a href="https://kaueaclima.github.io/projeto-viloes-scissor-seven/" target="_blank">
-          <img src="./assets/img/projeto-viloes-scissor-seven.png" alt="Projeto landing page Vilões Scissor Seven" />
-          <h3>Projeto 3</h3>
-          <div class="informacoes-projeto">
-            <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projeto">
-        <a href="https://kaueaclima.github.io/projeto-listagem-pokemon/" target="_blank">
-          <img src="./assets/img/projeto-listagem-pokemon.png" alt="Projeto listagem de pokemons" />
-          <h3>Projeto 5</h3>
-          <div class="informacoes-projeto">
-            <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projeto">
-        <a href="https://kaueaclima.github.io/projeto-nlw-quiz/" target="_blank">
-          <img src="./assets/img/nlw-quiz.jpg" alt="Projeto Quiz Pokémon" />
-          <h3>Projeto 6</h3>
-          <div class="informacoes-projeto">
-            <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projeto">
-        <a href="#" target="_blank">
-          <img src="https://via.placeholder.com/515X700" alt="Capa do projeto" />
-          <h3>Projeto 7</h3>
-          <div class="informacoes-projeto">
-            <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projeto">
-        <a href="#" target="_blank">
-          <img src="https://via.placeholder.com/515X700" alt="Capa do projeto" />
-          <h3>Projeto 8</h3>
-          <div class="informacoes-projeto">
-            <p>Projeto feito usando HTML, CSS e JavaScript</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
     </div>
-    </div>
-    <div>
-      <button class="btn-mostrar-projetos">Mostrar mais</button>
     </div>
   </section>
-  <script src="./assets/js/index.js"></script>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+        </div>
+
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+        </div>
+
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-react-plain" id="react"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">
+          <a href="https://kaueaclima.github.io/projeto-gta/" target="_blank">
+            <img src="./assets/img/projeto-gta-v.png" alt="GTA V" />
+            <h3>Projeto GTA V</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://kaueaclima.github.io/projeto-discover-dev-links/" target="_blank">
+            <img src="./assets/img/projeto-dev-links.png" alt="Dev Link" />
+            <h3>Projeto Dev Links</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://kaueaclima.github.io/projeto-landpage-agency/" target="_blank">
+            <img src="./assets/img/projeto-agency-xyz.png" alt="Agency XYZ" />
+            <h3>Projeto Agency XYZ</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://kaueaclima.github.io/projeto-fylo-landing-page-with-two-column-layout-master/"
+            target="_blank">
+            <img src="./assets/img/projeto-fylo.png" alt="Landing Page Fylo" />
+            <h3>Projeto Fylo</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://kaueaclima.github.io/projeto-huddle-landing-page-with-alternating-feature-blocks-master/"
+            target="_blank">
+            <img src="./assets/img/projeto-huddle.png" alt="Landing Page Huddle" />
+            <h3>Projeto Huddle</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://kaueaclima.github.io/projeto-nlw-quiz/" target="_blank">
+            <img src="./assets/img/projeto-quiz-pokemon.png" alt="Quiz Pokémon" />
+            <h3>Projeto Quiz Pokémon</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://kaueaclima.github.io/projeto-x-devs/" target="_blank">
+            <img src="./assets/img/projeto-x-devs.png" alt="X Devs" />
+            <h3>Projeto X Devs</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://kaueaclima.github.io/projeto-listagem-pokemon/" target="_blank">
+            <img src="./assets/img/projeto-pokedex.png" alt="Pokedex" />
+            <h3>Projeto Pokedex</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/kau%C3%AA-lima-234515182/" class="outer-shadow" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/5511993106261" class="outer-shadow" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/KaueACLima" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/kaue_acl/" class="outer-shadow" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
