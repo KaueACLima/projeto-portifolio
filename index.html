@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="./assets/css/secoes/sobre.css" />
   <link rel="stylesheet" href="./assets/css/secoes/habilidades.css" />
   <link rel="stylesheet" href="./assets/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="./assets/css/secoes/servicos.css" />
   <link rel="stylesheet" href="./assets/css/secoes/footer.css" />
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
@@ -27,9 +28,10 @@
 <body>
   <header class="header">
     <div class="container">
-      <div class="row justify-content-between alinhar-itens-no-centro">
+      <div class="row justify-content-evenly alinhar-itens-no-centro">
         <a href="#">
-          <h1 class="logo">KL</h1>
+          <!-- <h1 class="logo">KL</h1> -->
+          <img class="logo" src="./assets/img/logo-kaue-lima.png" alt="">
         </a>
         <nav>
           <input id="menu-hamburguer" type="checkbox" />
@@ -40,6 +42,7 @@
             </div>
           </label>
           <ul>
+            <li><a href="#servicos">Serviços</a></li>
             <li><a href="#sobre-mim">Sobre mim</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#projetos">Meus projetos</a></li>
@@ -51,16 +54,34 @@
       </div>
     </div>
   </header>
-
   <section class="home">
     <div class="container">
       <div class="row full-screen alinhar-itens-no-centro">
         <div class="texto-home">
-          <p>Olá 🖖,</p>
+          <!-- <p>Olá 🖖, seja-bem vindo</p>
           <h1>Sou o Kauê Lima</h1>
-          <h2>Desenvolvedor Frontend</h2>
-
-          <div class="redes-sociais">
+          <h2>Desenvolvedor Web Front-End</h2> -->
+          <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-brn" id="radio1">
+              <input type="radio" name="radio-brn" id="radio2">
+              <input type="radio" name="radio-brn" id="radio3">
+              <input type="radio" name="radio-brn" id="radio4">
+              <div class="slide primeira">
+                <img src="https://placehold.co/600x400" alt="Slide 1">
+              </div>
+              <div class="slide">
+                <img src="https://placehold.co/600x400" alt="Slide 2">
+              </div>
+              <div class="slide">
+                <img src="https://placehold.co/600x400" alt="Slide 3">
+              </div>
+              <div class="slide">
+                <img src="https://placehold.co/600x400" alt="Slide 4">
+              </div>
+            </div>
+          </div>
+          <!-- <div class="redes-sociais">
             <a href="https://www.linkedin.com/in/kau%C3%AA-lima-234515182/" class="outer-shadow" target="_blank"><i
                 class="fab fa-linkedin-in"></i></a>
             <a href="https://wa.me/5511993106261" class="outer-shadow" target="_blank"><i
@@ -69,45 +90,41 @@
                 class="fab fa-github"></i></a>
             <a href="https://www.instagram.com/kaue_acl/" class="outer-shadow" target="_blank"><i
                 class="fab fa-instagram"></i></a>
-          </div>
+          </div> -->
         </div>
-
-        <div class="img-home">
-          <div class="img-box inner-shadow">
-            <img class="outer-shadow" src="./assets/img/foto-perfil-1.png" alt="foto do perfil do Kauê Lima" />
-          </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="sobre-mim section" id="sobre-mim">
+  <section class="servicos section" id="servicos">
+    <div class="section-title">
+      <h2>Serviços</h2>
+    </div>
     <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Sobre mim</h2>
+      <div class="container-servicos">
+        <div class="servico">
+          <h3><i class="fas fa-laptop-code"></i> Criação de Landing Pages</h3>
+          <p><strong>Descrição:</strong> Desenvolvimento de páginas otimizadas para conversão, focadas em capturar leads ou vender produtos e serviços. As landing pages são responsivas e adaptadas para dispositivos móveis.</p>
+          <p><strong>Diferencial:</strong> Uso de design estratégico e SEO básico para garantir melhor desempenho nos mecanismos de busca e altas taxas de conversão.</p>
+        </div>
+        <div class="servico">
+          <h3><i class="fas fa-user-circle"></i> Desenvolvimento de Portfólios</h3>
+          <p><strong>Descrição:</strong> Criação de portfólios personalizados para profissionais ou empresas que desejam exibir seu trabalho de forma visual e impactante.</p>
+          <p><strong>Diferencial:</strong> Design único e interativo, pensado para destacar as habilidades e conquistas do cliente, com carregamento rápido e otimizado.</p>
+        </div>
+        <div class="servico">
+          <h3><i class="fas fa-tools"></i> Manutenção de Sites</h3>
+          <p><strong>Descrição:</strong> Correção de bugs, melhorias no design e atualizações de conteúdo em sites já existentes para manter a relevância e o desempenho.</p>
+          <p><strong>Diferencial:</strong> Resposta rápida e flexibilidade para atender às necessidades do cliente de forma eficiente e proativa.</p>
+        </div>
+        <div class="servico">
+          <h3><i class="fas fa-mobile-alt"></i> Criação de Interfaces Responsivas</h3>
+          <p><strong>Descrição:</strong> Desenvolvimento de interfaces modernas e responsivas, garantindo que o site funcione perfeitamente em diferentes dispositivos e tamanhos de tela.</p>
+          <p><strong>Diferencial:</strong> Uso de boas práticas de acessibilidade e UX, proporcionando uma experiência de navegação fluida para todos os usuários.</p>
         </div>
       </div>
-      <div class="informacoes-sobre-mim">
-        <p>
-          <strong>Me chamo Kauê Lima e sou um desenvolvedor fullsteck em
-            formação!</strong>
-        </p>
-
-        <p>
-          Desenvolvedor Fullstack em transição, com 9 meses de experiência em desenvolvimento como freelancer e forte
-          conhecimento em HTML, CSS, JavaScript, React e Git. Com uma base sólida na área administrativa, onde
-          desenvolvi habilidades analíticas e organizacionais criando planilhas eficientes, estou focado em consolidar
-          minha carreira na área de desenvolvimento. Atualmente, estou cursando Informática para Internet na ETEC Parque
-          Belém e me dedicando ao aprimoramento de tecnologias como TypeScript e Node.js. Busco uma oportunidade para
-          aplicar meu conhecimento em projetos reais e contribuir para o crescimento de uma empresa.
-        </p>
-
-      </div>
-
-    </div>
     </div>
   </section>
-
   <section class="habilidades section" id="habilidades">
     <div class="container">
       <div class="row">
@@ -130,12 +147,6 @@
           </div>
         </div>
 
-        <div class="informacoes github">
-          <div class="logo">
-            <i class="devicon devicon-github-original" id="github"></i>
-          </div>
-        </div>
-
         <div class="informacoes git">
           <div class="logo">
             <i class="devicon devicon-git-plain" id="git"></i>
@@ -150,6 +161,12 @@
 
         <div class="informacoes javascript">
           <div class="logo">
+            <i class="devicon devicon-php-plain" id="javascript"></i>
+          </div>
+        </div>
+
+        <div class="informacoes javascript">
+          <div class="logo">
             <i class="devicon devicon-react-plain" id="react"></i>
           </div>
         </div>
@@ -157,7 +174,6 @@
       </div>
     </div>
   </section>
-
   <section class="projetos section" id="projetos">
     <div class="container">
       <div class="row">
@@ -259,7 +275,46 @@
       </div>
     </div>
   </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="section-title">
+      <h2>Sobre mim</h2>
+    </div>
+    <div class="container">
+      <div class="informacoes-sobre-mim">
+        <p>
+          <strong>Me chamo Kauê Lima e sou um desenvolvedor Web Front-End</strong>
+        </p>
 
+        <p>
+          Como Desenvolvedor Web Front-End, tenho 1 ano de experiência na criação de interfaces modernas e funcionais, utilizando tecnologias como HTML, CSS, JavaScript, React, e Git. Minha trajetória inclui uma base em administração, onde desenvolvi soluções organizacionais, como planilhas automatizadas, que melhoraram a eficiência de processos em até 20%. Essa experiência me ajudou a consolidar habilidades como pensamento analítico e gestão de tarefas complexas.
+
+          No 3º módulo do curso de Informática para Internet na ETEC Parque Belém, estou expandindo meu conhecimento em TypeScript, Node.js e práticas avançadas de desenvolvimento full-stack. Valorizo a aplicação de boas práticas de usabilidade e design responsivo para entregar projetos que atendam às necessidades do usuário e impulsionem resultados empresariais.
+        </p>
+      </div>
+      <div class="img-sobre-mim">
+        <div class="img-box inner-shadow">
+          <img class="outer-shadow" src="./assets/img/foto-perfil-1.png" alt="foto do perfil do Kauê Lima" />
+        </div>
+        <div class="hobbies row alinhar-itens-no-centro">
+          <div class="turquesa">
+            <i class="fas fa-coffee"></i>
+          </div>
+          <div class="azul-claro">
+            <i class="fas fa-headset"></i>
+          </div>
+          <div class="verde-agua">
+            <i class="fas fa-fire"></i>
+          </div>
+          <div class="laranja">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="magenta">
+            <i class="fas fa-laptop"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <footer class="footer">
     <div class="container">
       <h2>Me envie uma mensagem!</h2>

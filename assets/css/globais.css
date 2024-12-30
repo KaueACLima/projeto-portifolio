@@ -28,6 +28,10 @@ body {
   justify-content: space-between;
 }
 
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
 .alinhar-itens-no-centro {
   align-items: center;
 }

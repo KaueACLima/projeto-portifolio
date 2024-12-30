@@ -1,5 +1,5 @@
 /* SOBRE MIM */
-.sobre-mim .imagem-sobre-mim {
+/* .sobre-mim .imagem-sobre-mim {
   max-width: 40%;
   padding: 0 15px;
 }
@@ -13,6 +13,31 @@
 .sobre-mim .imagem-sobre-mim img {
   border: 10px solid transparent;
   border-radius: 5px;
+} */
+.sobre-mim .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  margin: 0 auto;
+  grid-gap: 40px;
+}
+
+.sobre-mim .img-sobre-mim .img-box {
+  max-width: 450px;
+  margin: auto;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.sobre-mim .img-sobre-mim .img-box img {
+  width: 100%;
+  border-radius: 50%;
+  border: 10px solid transparent;
+}
+
+.sobre-mim .img-home {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
 }
 
 .sobre-mim .informacoes-sobre-mim {
@@ -45,7 +70,6 @@
   .sobre-mim .imagem-sobre-mim {
     max-width: 100%;
     padding: 0 var(--mobile-padding);
-    margin-bottom: 50px;
   }
 
   .sobre-mim .informacoes-sobre-mim {
@@ -64,4 +88,36 @@
   .sobre-mim .informacoes-sobre-mim {
     max-width: 100%;
   }
+}
+
+.sobre-mim .hobbies {
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 25px;
+  font-size: var(--fonte-grande);
+}
+
+.sobre-mim .hobbies .turquesa {
+  padding: 15px;
+  background-color: #0097B2;
+}
+.sobre-mim .hobbies .azul-claro {
+  padding: 15px;
+  background-color: #7EC2C4;
+  color: #000;
+}
+.sobre-mim .hobbies .verde-agua {
+  padding: 15px;
+  background-color: #43bd8e;
+  color: #dfa70c;
+}
+.sobre-mim .hobbies .laranja {
+  padding: 15px;
+  background-color: #ffa500;
+  color: #000;
+}
+.sobre-mim .hobbies .magenta {
+  padding: 15px;
+  background-color: #CB6CC6;
+  color: #000;
 }

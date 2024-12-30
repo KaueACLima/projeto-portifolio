@@ -1,8 +1,9 @@
-.header {
+/* .header {
   padding: 30px 15px;
-}
+  background-color: #353535;
+} */
 
-.header .logo {
+/* .header .logo {
   font-family: var(--fonte-secundaria);
   font-size: var(--fonte-extra-grande);
   color: var(--cor-branca);
@@ -32,7 +33,7 @@
   content: "\3c";
   position: absolute;
   transform: rotate(180deg);
-}
+} */
 
 @media (max-width: 576px) {
   .header .logo::before {
@@ -45,8 +46,8 @@
   }
 }
 
-.header a:hover .logo {
-  color: var(--cor-primaria);
+.header a .logo {
+  height: 150px;
 }
 
 .header nav ul {
@@ -67,6 +68,7 @@
 
 .header nav ul li a:hover {
   background-color: var(--cor-primaria);
+  color: var(--cor-preta);
 }
 
 .header nav ul li .botao {
@@ -75,10 +77,12 @@
   border-radius: 20px;
   transition: all 0.3s ease;
   background-color: var(--cor-primaria);
+  color: var(--cor-preta);
 }
 
 .header nav ul li .botao:hover {
   background-color: var(--cor-secundaria);
+  color: var(--cor-branca);
 }
 
 .header .menu {
